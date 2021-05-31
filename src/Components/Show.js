@@ -9,7 +9,7 @@ function Example() {
     return (
       <>
         <Button variant="success" onClick={() => setShow(true)}>
-          Custom Width Modal
+          Кнопка
         </Button>
   
         <Modal
@@ -20,12 +20,12 @@ function Example() {
         >
           <Modal.Header closeButton>
             <Modal.Title id="example-custom-modal-styling-title">
-              Custom Modal Styling
+              Кнопка
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
-              Seme Loh
+              Потенциальное место для контента
             </p>
           </Modal.Body>
         </Modal>
