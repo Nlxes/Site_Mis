@@ -7,7 +7,7 @@ export default function NaviBar() {
     return(
     <>
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-    <Navbar.Brand href="/About"><h1>SiteForMisLabs 1-7</h1></Navbar.Brand>
+    <Navbar.Brand href="/About"><h1>SiteForMisLabs</h1></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
@@ -15,7 +15,7 @@ export default function NaviBar() {
       <NavDropdown title="Разделы" id="dropdown-basic">
         <NavDropdown.Item href="/Page1">Компьютерная безопасность</NavDropdown.Item>
         <NavDropdown.Item href="/Page2">Информационная безопасность</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Тема по кб 3 бла бла бла</NavDropdown.Item>
+        <NavDropdown.Item href="/Page3">Вирусы и противодействие им</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Form inline>
