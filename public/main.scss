@@ -11,6 +11,9 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #FFF;
 }
+#home{
+  min-height: 895px;
+}
 .about .wu1 h3{
   font-weight: 700;
   font-size: 26px;
@@ -51,5 +54,10 @@ b {
   line-height: 1;
   letter-spacing: -.05rem;
   text-transform: none;
+}
+.HomeText {
+  font-size:35px;
+  text-align:center;
+  font-family: Courier, Monospace;
 }
 /*# sourceMappingURL=index.css.map */

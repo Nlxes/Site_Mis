@@ -14,13 +14,13 @@ export default function NaviBar() {
       <Nav.Link><Link to="/"><div class ="color">Главная</div></Link></Nav.Link>
       <NavDropdown title="Разделы" id="dropdown-basic">
         <NavDropdown.Item href="/Page1">Компьютерная безопасность</NavDropdown.Item>
-        <NavDropdown.Item href="/Page2">Информационная безопасность</NavDropdown.Item>
+        <NavDropdown.Item href="/Page2">Сфера ИБ в наше время</NavDropdown.Item>
         <NavDropdown.Item href="/Page3">Вирусы и противодействие им</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
+      <Button href="https://www.google.ru/" variant="outline-primary">Search</Button>
     </Form>
   </Navbar.Collapse>
 </Navbar>

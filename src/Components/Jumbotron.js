@@ -8,7 +8,7 @@ const Styles = styled.div`
     background: url(${bg}) no-repeat fixed bottom;
     background-size:cover;
     color:#efefef;
-    height:400px;
+    height:300px;
     position:relative;
     z-index:-2;
 }
@@ -30,7 +30,7 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
         <div className="overlay"></div>
         <Container>
-            <h1>Все что нужно знать о компьютерной безопасности в 2021:</h1>
+            <h1>Все что нужно знать о компьютерной безопасности</h1>
             <p>Это раздел информационной безопасности, в рамках которого изучают
             процессы формирования, функционирования и эволюции киберобъектов, для
             выявления источников киберопасности, образующихся при этом, определение
