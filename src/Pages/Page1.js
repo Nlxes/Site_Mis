@@ -23,7 +23,7 @@ export const Page1 = () => (
             </Col>
     </Row>
     <Row>
-    <Col><img src={Otstup} height={250}/></Col>
+    <Col><img src={Otstup} height={150}/></Col>
     </Row>
     <Row>
             <Col>

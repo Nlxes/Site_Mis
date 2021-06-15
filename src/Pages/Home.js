@@ -5,7 +5,7 @@ export const Home = () => (
     <>
     <body id='home'>
     <div class="HomeText"><strong>Данный проект - это информационный портал посвещеный IT с углублением в информационную безопасность.</strong></div>
-    <div class="HomeText"><strong>Ниже представлена таблица с уже имеющимеся раздела и разделами, которые буду добавлены в будущем</strong></div>
+    <div class="HomeText"><strong>Ниже представлена таблица с уже имеющимеся раздела и разделами, которые буду добавлены в будущем.</strong></div>
     <Container> 
     <Table striped bordered hover>
         <thead>

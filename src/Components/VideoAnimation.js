@@ -9,7 +9,7 @@ export const  AboutContainer = styled.div`
     justify-contect: center;
     align-items: center;
     padding: 0 30px;
-    height: 895px;
+    height: 790px;
     position: relative;
     z-index:1
     `

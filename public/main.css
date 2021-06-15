@@ -10842,7 +10842,7 @@ body {
 }
 
 #home {
-  min-height: 895px;
+  min-height: 790px;
 }
 
 .about .wu1 h3 {
@@ -10889,7 +10889,7 @@ b {
 }
 
 .HomeText {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   font-family: Courier, Monospace;
 }
