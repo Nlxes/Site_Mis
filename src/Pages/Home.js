@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Table } from 'react-bootstrap';
+import { Container, Table, Spinner } from 'react-bootstrap';
 import Footer from '../Components/Footer';
 export const Home = () => (
     <>
@@ -38,13 +38,13 @@ export const Home = () => (
             <tr>
                 <td>4</td>
                 <td>Кибермошенничество</td>
-                <td>В процессе добавления</td>
+                <td>В процессе добавления <Spinner animation="border" size="sm" /></td>
                 <td>-------</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td>Кибернетика и искусственный интеллект</td>
-                <td>В процессе добавления</td>
+                <td>В процессе добавления <Spinner animation="border" size="sm" /></td>
                 <td>-------</td>
             </tr>
         </tbody>
