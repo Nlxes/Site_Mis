@@ -16,6 +16,7 @@ export default function NaviBar() {
         <NavDropdown.Item href="/Page1">Компьютерная безопасность</NavDropdown.Item>
         <NavDropdown.Item href="/Page2">Сфера ИБ в наше время</NavDropdown.Item>
         <NavDropdown.Item href="/Page3">Вирусы и противодействие им</NavDropdown.Item>
+        <NavDropdown.Item href="/ExercisePage">Практическое задание 10 вариант</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Form inline>

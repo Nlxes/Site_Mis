@@ -9,6 +9,7 @@ import { Home } from './Pages/Home';
 import { Page1 } from './Pages/Page1';
 import { Page2 } from './Pages/Page2';
 import { Page3 } from './Pages/Page3';
+import ExercisePage from './Pages/ExercisePage';
 import { About } from './Pages/About';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Route exact path ="/Page1" component={ Page1 } />
     <Route exact path ="/Page2" component={ Page2 } />
     <Route exact path ="/Page3" component={ Page3 } />
+    <Route exact path ="/ExercisePage" component={ ExercisePage } />
     <Route exact path ="/About" component={ About } />
   </Switch>
   </Router>
